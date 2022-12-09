@@ -72,10 +72,11 @@ p email.values
 # LONG EXAMPLE:
 # Now that we've learned about Hashes AND Arrays, we can combine them.
 
+
 # Check out the following example of an array of Instagram posts:
 
 
-# posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"]
+posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"]
 
 
 # An Array of Hashes is probably more realistic. Hashes are a data type that's great
@@ -113,3 +114,28 @@ p email.values
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+emails = [
+  {
+    username: "Jredish11",
+    url: "@gmail.com",
+    subject: "Meeting notes",
+    drafts: 1,
+    status: true
+  },
+  {
+  username: "Khunt001",
+  url: "@gmail.com",
+  subject: "Check-in",
+  drafts: 0,
+  status: true
+  },
+  {
+    username: "gventricle33",
+  url: "@aol.com",
+  subject: "No subject",
+  drafts: 100,
+  status: false
+  }
+]
+
+p emails
