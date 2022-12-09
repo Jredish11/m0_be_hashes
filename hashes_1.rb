@@ -32,7 +32,7 @@ p foods.values
 
 #-------------------
 # Part 2: Email
-#-------------------
+#-------------------_
 
 
 # Think about all the pieces of information associated with one single email in your inbox.
